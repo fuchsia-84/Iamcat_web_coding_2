@@ -207,4 +207,55 @@
     font-weight: bold;
     margin-bottom: 40px;
 }
-
+/* cat3 */
+#cat3 {
+    width: 100%;
+    background: #ffffff;
+}
+#cat3 .cat3_content {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #777777;
+    margin-top: 70px;
+}
+#cat3 .cat3_content dl {
+    display: block;
+    max-width: 980px;
+    border-bottom: 1px solid #777777;
+    padding: 0 22px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 40px;
+}
+#cat3 .cat3_content dt {
+    display: inline-block;
+    font-weight: bold;
+}
+#cat3 .cat3_content dt::after {
+    content: "新着";
+    color: #AE0009;
+    font-weight: normal;
+    border: 1px solid #AE0009;
+    text-align: center;
+    margin-left: 16px;
+    padding: 5px 26px;
+}
+#cat3 .cat3_content dd {
+    display: inline-block;
+    margin-left: 36px;
+    font-weight: normal;
+}
+#cat3 .cat3_btn {
+    display: block;
+    width: 126px;
+    height: 38px;
+    margin: 40px auto 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 31px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #FFFFFF;
+    background-color: #AE0009;
+}
