@@ -153,4 +153,32 @@
 #cat1 .cat1_contents div:last-child {
     margin-bottom: 0;
 }
+/* cat2 */
+#cat2 {
+    display: block;
+    width: 100%;
+    background: #FFFFFF;
+}
+#cat2 .cat2_contents {
+    width: 100%;
+    display: block;
+    margin-top: 70px;
+}
+#cat2 .cat2_contents div {
+    float: left;
+    padding-right: 40px;
+}
+#cat2 .cat2_contents div:last-child {
+    padding-right: 0;
+}
+#cat2 .cat2_contents div img {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+#cat2 .cat2_contents div p {
+    width: 300px;
+    font-size: 16px;
+    line-height: 27px;
+}
 
