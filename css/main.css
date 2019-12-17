@@ -70,3 +70,20 @@
     left: calc((100% - 270px)*0.5);
     z-index: 2;
 }
+/* about */
+#about .inner {
+    width: 980px;
+    padding: 100px 0;
+    text-align: center;;
+}
+#about h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 54px;
+}
+#about p {
+    display: block;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 50px;
+}
