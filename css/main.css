@@ -259,3 +259,37 @@
     color: #FFFFFF;
     background-color: #AE0009;
 }
+/* under */
+#under {
+    display: block;
+    width: 100%;
+    background-color: #AFAFAF;
+    color: #FFFFFF;
+}
+#under .inner {
+    width: 980px;
+    padding: 70px 0;
+}
+#under .under_contents div {
+    float: left;
+    width: 300px;
+    padding-right: 40px;
+}
+#under .under_contents div:last-child{
+    padding-right: 0;
+}
+#under .under_contents div h1 {
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #FFFFFF;
+}
+#under .under_contents div ul {
+    list-style: none;
+}
+#under .under_contents div li {
+    font-size: 16px;
+    line-height: 27px;
+}
+#under .under_contents div li::before{
+    content: "・";
+}
