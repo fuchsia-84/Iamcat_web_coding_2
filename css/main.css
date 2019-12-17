@@ -293,3 +293,17 @@
 #under .under_contents div li::before{
     content: "・";
 }
+/* footer */
+#footer {
+    display: block;
+    height: 50px;
+    background-color: #797979;
+    border: 1px solid #707070;
+    text-align: center;
+}
+#footer p {
+    margin-top: 19px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
